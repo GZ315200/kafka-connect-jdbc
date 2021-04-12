@@ -48,7 +48,7 @@ public abstract class DbMetadataQueries {
     final String schema = getSchema(connection, product);
 
     log.info(
-        "Checking table:{} exists for product:{} schema:{} catalog:",
+        "Checking table:{} exists for product:{} schema:{} catalog:{}",
         tableName,
         product,
         schema,
