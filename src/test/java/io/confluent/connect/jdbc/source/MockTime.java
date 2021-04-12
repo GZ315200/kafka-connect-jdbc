@@ -17,8 +17,11 @@
 package io.confluent.connect.jdbc.source;
 
 import org.apache.kafka.common.utils.Time;
+import org.apache.kafka.common.utils.Timer;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
+import java.util.function.Supplier;
 
 /**
  * A clock that you can manually advance by calling sleep
@@ -57,6 +60,21 @@ public class MockTime implements Time {
     @Override
     public void sleep(long ms) {
         this.nanos += TimeUnit.NANOSECONDS.convert(ms, TimeUnit.MILLISECONDS);
+    }
+
+    @Override
+    public void waitObject(Object obj, Supplier<Boolean> condition, long deadlineMs) throws InterruptedException {
+
+    }
+
+    @Override
+    public Timer timer(long timeoutMs) {
+        return null;
+    }
+
+    @Override
+    public Timer timer(Duration timeout) {
+        return null;
     }
 
 }
