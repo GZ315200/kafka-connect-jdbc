@@ -9,7 +9,7 @@ Documentation for this connector can be found [here](http://docs.confluent.io/cu
 
 To build a development version you'll need a recent version of Kafka. You can build
 kafka-connect-jdbc with Maven using the standard lifecycle phases.
-
+If you wanna build this project, you may build the [Common](https://github.com/GZ315200/common) project first.
 
 # Contribute
 
@@ -20,3 +20,4 @@ kafka-connect-jdbc with Maven using the standard lifecycle phases.
 # License
 
 The project is licensed under the Apache 2 license.
+
