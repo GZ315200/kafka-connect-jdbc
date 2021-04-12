@@ -21,3 +21,6 @@ If you wanna build this project, you may build the [Common](https://github.com/G
 
 The project is licensed under the Apache 2 license.
 
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fconfluentinc%2Fkafka-connect-jdbc.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fconfluentinc%2Fkafka-connect-jdbc?ref=badge_large)
